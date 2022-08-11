@@ -44,7 +44,7 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.exp))
                     user.exp = 0
                 if (!isNumber(user.limit))
-                    user.limit = 15
+                    user.limit = 1500
                 if (!isNumber(user.lastclaim))
                     user.lastclaim = 0
                 if (!('registered' in user))
@@ -77,7 +77,7 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.health))
                     user.health = 20
                 if (!isNumber(user.limit))
-                    user.limit = 15
+                    user.limit = 1500
                 if (!isNumber(user.potion))
                     user.potion = 0
                 if (!isNumber(user.trash))
